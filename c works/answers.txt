@@ -1,0 +1,212 @@
+#include<stdio.h>
+/* 
+This is multi line comment
+To arrange two numbers in descending order
+*/
+int main()
+{
+    int num1;
+    int num2;
+    printf("enter the first number: ");
+    scanf("%d",&num1);
+    printf("enter the second number: ");
+    scanf("%d",&num2);
+
+    if (num1>num2)
+    printf("descending order of the numbers are: %d %d \n", num1, num2);
+
+    else
+    printf ("descending order of the numbers are: %d %d \n", num2,num1);
+
+    if(num1==num2)
+
+    printf("both the numbers are equal");
+}
+==========================================
+#include<stdio.h>
+/* display 1 to 10
+*/
+int main()
+{
+    int i;
+
+    for (i=1;i<11;i++)
+    {
+        printf("%d \n",i);
+    }
+
+}
+===========================================
+#include<stdio.h>
+/* display 51 to 60
+*/
+int main()
+{
+    int i;
+
+    for (i=51;i<61;i++)
+    {
+        printf("%d \n",i);
+    }
+
+}
+===========================================
+#include<stdio.h>
+/* display 75 to 155 with a common difference of 5
+*/
+int main()
+{
+    int i;
+
+    for (i=75;i<=155;i++)
+    {
+        printf("%d \n",i);
+        i=i+4;
+    }
+
+}
+============================================
+#include<stdio.h>
+/* display 2 to 62 with a common difference of 2
+*/
+int main()
+{
+    int i;
+
+    for (i=2;i<=62;i++)
+    {
+        printf("%d \n",i);
+        i=i+1;
+    }
+
+}
+============================================
+#include<stdio.h>
+/*table of 1
+*/
+int main()
+{
+    int i;
+
+    for (i=1;i<11;i++)
+    {
+        printf("1*%d = %d \n",i,1*i);
+    }
+
+}
+==============================================
+#include<stdio.h>
+/*table of 2 till 10
+*/
+int main()
+{
+    int i;
+
+    for (i=1;i<11;i++)
+    {
+        printf("2*%d = %d \n",i,2*i);
+    }
+
+}
+=============================================
+#include<stdio.h>
+/*table of 3 till 10
+*/
+int main()
+{
+    int i;
+
+    for (i=1;i<11;i++)
+    {
+        printf("3*%d = %d \n",i,3*i);
+    }
+
+}
+=================================================
+#include<stdio.h>
+/*tables till 10
+*/
+int main()
+{
+    int i;
+    int j;
+
+    for (i=1;i<11;i++)
+    {
+        for (j=1;j<11;j++)
+        {
+            printf("%d \t* %d \t= %d \t \n",i,j,i*j);
+        }
+printf("\n");
+    }
+
+}
+====================================================
+#include<stdio.h>
+
+int main()
+{
+    int i;
+    int j;
+
+    for (i=0,j=10;i<=10,j>=0;i++,j--)
+    {
+        printf("%d + %d = %d \n",i,j,i+j);
+    }
+}
+===================================================
+#include<stdio.h>
+/*tables till 25
+*/
+int main()
+{
+    int i;
+    int j;
+
+    for (i=1;i<26;i++)
+    {
+        for (j=1;j<26;j++)
+        {
+            printf("%d \t* %d \t= %d \t \n",i,j,i*j);
+        }
+printf("\n");
+    }
+
+}
+====================================================
+#include<stdio.h>
+/*finding hcf
+*/
+int main()
+{
+    int num1;
+    int num2;o
+    int r;
+    int a;
+    int b;
+
+    printf("enter num1:\n");
+    scanf("%d",&num1);
+    printf("enter num2:");
+    scanf("%d",&num2);
+
+    if (num1>num2)
+    {
+        a=num1;
+        b=num2;
+    }
+    else
+    {
+        a=num2;
+        b=num1;
+    }
+    do
+    {
+        r=a%b;
+        a=b;
+        b=r;
+    }
+    while(r!=0);
+        printf("HCF is %d",a);
+}
+==============================================

@@ -1,0 +1,4 @@
+ask the user to enter any number,then ask the user to enter another number 
+then write a c program to add all the even numbers between above two numbers.
+
+ans:
